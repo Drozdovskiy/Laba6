@@ -1,0 +1,14 @@
+Console.Write("Введите первую строку: ");
+string S1 = Console.ReadLine();
+
+Console.Write("Введите вторую строку: ");
+string S2 = Console.ReadLine();
+
+if (S1.Contains(S2))
+{
+    Console.WriteLine("TRUE");
+}
+else
+{
+    Console.WriteLine("FALSE");
+}
