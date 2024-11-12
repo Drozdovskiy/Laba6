@@ -1,0 +1,5 @@
+Console.WriteLine("Введите двоичное число:");
+string String = Console.ReadLine();
+
+int ten = Convert.ToInt32(String, 2);    
+Console.WriteLine($"Десятичное представление: {ten}");
