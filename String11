@@ -1,0 +1,5 @@
+string S = "Непустая строка";
+char[] array = S.ToCharArray();
+
+string result = String.Join(" ", array);
+Console.WriteLine(result);
