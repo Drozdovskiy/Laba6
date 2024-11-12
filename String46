@@ -1,0 +1,15 @@
+Console.WriteLine("Введите строку:");
+string str1 = Console.ReadLine();
+string[] words = str1.Split(new char[] { ' ' });
+
+int maxword = 0;
+
+foreach (string word in words)
+{
+    if (word.Length > maxword)
+    {
+        maxword = word.Length;
+    }
+}
+
+Console.WriteLine($"Длина самого длинного слова: {maxword}");
